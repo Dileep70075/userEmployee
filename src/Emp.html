@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <style>
+        form {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <tr>
+            <th>AUTHOR</th>
+            <th>FUNCTION</th>
+            <th>STATUS</th>
+            <th>EMPLOYEED</th>
+        </tr>
+        <tr>
+            <td><input type="file" name="image" id="image" accept="image/*" required>
+                <pre>
+                <label for="name" id="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="text"  id="email" name="email" required>
+            </pre>
+            </td>
+            <td>
+                <pre>
+                <label for="managerName">ManagerName</label>
+                <input type="text" id="ManagerName" name="managerName" required>
+                <label for="sts">Sts</label>
+                <input type="text"  id="Sts" name="sts" required>
+            </pre>
+            </td>
+            <td id="t1">Status</td>
+            <td>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+            </td>
+        </tr>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 30px;
+            margin: 50px auto;
+            width: 80%;
+            max-width: 700px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            background-color: #f0f0f0;
+            border-bottom: 2px solid #ddd;
+        }
+
+        td {
+            border-bottom: 1px solid #ddd;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="file"],
+        input[type="date"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="file"]:focus,
+        input[type="date"]:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            padding: 12px 20px;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+            transform: scale(1.02);
+        }
+
+        input[type="submit"]:active {
+            background-color: #004494;
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <th>AUTHOR</th>
+                <th>FUNCTION</th>
+                <th>STATUS</th>
+                <th>EMPLOYEED</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file" name="image" id="image" accept="image/*" required>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+                </td>
+                <td>
+                    <label for="managerName">Manager Name</label>
+                    <input type="text" id="managerName" name="managerName" required>
+                    <label for="sts">Status</label>
+                    <input type="text" id="sts" name="sts" required>
+                </td>
+                <td id="t1">Status</td>
+                <td>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html> -->
